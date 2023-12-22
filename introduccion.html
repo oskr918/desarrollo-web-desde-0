@@ -1,0 +1,81 @@
+Clase 1: Introducción a CSS
+1. ¿Qué es CSS?
+CSS es un lenguaje de estilo utilizado para controlar la presentación de documentos HTML.
+Permite definir cómo se ven los elementos HTML en términos de diseño, color, tamaño, posición, etc.
+2. Incorporar CSS en HTML
+Puedes incluir CSS en tu documento HTML de tres maneras: en línea, en el encabezado (<head>), o externamente en un archivo.
+html
+Copy code
+<!-- CSS en línea -->
+<p style="color: blue;">Este es un texto azul</p>
+
+<!-- CSS en el encabezado -->
+<head>
+  <style>
+    p {
+      color: red;
+    }
+  </style>
+</head>
+
+<!-- CSS externo -->
+<link rel="stylesheet" type="text/css" href="estilos.css">
+3. Sintaxis básica
+Las reglas CSS consisten en un selector y un bloque de declaración.
+El selector apunta al elemento HTML que estás estilizando, y el bloque de declaración contiene propiedades y valores.
+css
+Copy code
+selector {
+  propiedad: valor;
+}
+
+/* Ejemplo */
+p {
+  color: green;
+  font-size: 16px;
+}
+4. Selectores básicos
+Elemento selector: p, h1, div, etc.
+ID selector: #miId
+Clase selector: .miClase
+5. Propiedades comunes
+color: Define el color del texto.
+font-size: Define el tamaño de la fuente.
+margin, padding: Espaciado exterior e interior.
+border: Establece el borde de un elemento.
+background-color: Define el color de fondo.
+6. Ejemplo práctico
+html
+Copy code
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Primera Página con CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      font-size: 18px;
+    }
+
+    .destacado {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bienvenido a mi primera página con CSS</h1>
+  <p>Esta es una clase de desarrollo web.</p>
+  <p class="destacado">¡Esta parte está destacada!</p>
+</body>
+</html>
