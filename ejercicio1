@@ -1,0 +1,23 @@
+Requerimientos del Sitio Web de Venta de Producto
+
+1. Encabezado y Título del Producto:
+Utiliza la etiqueta semántica <header> para incluir el encabezado de tu página.
+Dentro de <header>, coloca el nombre o título del producto utilizando <h1> para indicar la importancia.
+
+2. Barra de Navegación:
+Incluye una barra de navegación con al menos tres enlaces (<a>) para facilitar la navegación interna del usuario.
+Encierra la barra de navegación con la etiqueta semántica <nav>.
+
+3. Descripción del Producto:
+Emplea <section> para agrupar la descripción detallada y convincente del producto.
+Utiliza <h2> para el título y <p> para el contenido descriptivo.
+Agrega una imagen de cada producto.
+
+4. Características Principales:
+Crea otra <section> para resaltar las características más importantes del producto.
+Utiliza una lista desordenada (<ul>) con elementos de lista (<li>) para presentar las características.
+
+
+12. Etiquetas Semánticas y Accesibilidad:
+Utiliza etiquetas semánticas como <article>, <section>, <header>, <nav>, <footer>.
+Asegúrate de que tu sitio web sea accesible, utilizando atributos alt en las imágenes y garantizando una navegación con teclado eficiente.
