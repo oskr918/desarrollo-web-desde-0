@@ -1,0 +1,10 @@
+.contenedor{
+    border: 1px solid blue ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caja{
+    border: 2px solid red;
+    padding: 50px;
+}

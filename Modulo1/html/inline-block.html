@@ -1,0 +1,76 @@
+Elementos en Bloque (Block Elements):
+
+Los elementos en bloque son aquellos que ocupan todo el ancho disponible y comienzan en una nueva línea. Algunos ejemplos comunes de elementos en bloque incluyen:
+
+<div>: Es un contenedor de bloque genérico utilizado para agrupar otros elementos y aplicar estilos.
+
+html
+
+<div>
+    <!-- Contenido aquí -->
+</div>
+<p>: Representa un párrafo de texto.
+
+html
+
+<p>Este es un párrafo de texto.</p>
+<h1>, <h2>, ..., <h6>: Encabezados que van desde el nivel 1 hasta el nivel 6, donde <h1> es el más grande y <h6> el más pequeño.
+
+html
+Copy code
+<h1>Encabezado de Nivel 1</h1>
+<h2>Encabezado de Nivel 2</h2>
+Elementos en Línea (Inline Elements):
+
+Los elementos en línea, en cambio, no comienzan en una nueva línea y solo ocupan el ancho necesario. Algunos ejemplos de elementos en línea incluyen:
+
+<span>: Similar a <div>, pero en lugar de ser un contenedor de bloque, es un contenedor en línea.
+
+html
+
+<span>Texto en línea</span>
+<a>: Se utiliza para crear hipervínculos.
+
+html
+
+<a href="https://www.ejemplo.com">Enlace a Ejemplo.com</a>
+<strong> y <em>: Utilizados para resaltar texto en negrita y cursiva, respectivamente.
+
+html
+
+<p>Este es un texto <strong>importante</strong> y <em>énfasis</em>.</p>
+Ejemplo de Uso Combinado:
+
+html
+
+<div>
+    <h1>Encabezado Principal</h1>
+    <p>Este es un párrafo de texto con <a href="#">un enlace</a>.</p>
+    <p>Otro párrafo con <strong>texto destacado</strong>.</p>
+</div>
+CSS para Estilos Básicos:
+
+Puedes aplicar estilos específicos a elementos en bloque o en línea mediante CSS.
+
+css
+
+/* Estilos para elementos en bloque */
+div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para elementos en línea */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
